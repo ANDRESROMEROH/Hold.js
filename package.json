@@ -1,0 +1,31 @@
+{
+  "name": "holdjs",
+  "version": "1.0.0",
+  "description": "A Javascript module for waiting different amounts of time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDRESROMEROH/hold.js.git"
+  },
+  "keywords": [
+    "wait",
+    "sleep",
+    "hold",
+    "js",
+    "await",
+    "holdon",
+    "ms",
+    "s",
+    "min",
+    "hr"
+  ],
+  "author": "andresromeroh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ANDRESROMEROH/hold.js/issues"
+  },
+  "homepage": "https://github.com/ANDRESROMEROH/hold.js#readme"
+}
