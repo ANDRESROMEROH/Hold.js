@@ -7,9 +7,12 @@ A Javascript module for waiting different amounts of time.
 ```shell
 npm install holddotjs
 ```
+### Import
+```javascript
+const hold = require('holddotjs)
+```
 ### API Reference
 It's easy to use Hold.js API to wait for milliseconds, seconds, minutes and even hours.
-
 ```javascript
 hold.millisecs(5).then(() => console.log('🚌💨')) // Holds 5ms 😭 
 
@@ -19,6 +22,5 @@ hold.minutes(10).then(() => console.log('🚌💨')) // Holds 10min 😥
 
 hold.hours(2).then(() => console.log('🚌💨')) // Holds 2hrs 😄
 ```
-
 ## License
 Hold.js is licensed under the MIT License.
