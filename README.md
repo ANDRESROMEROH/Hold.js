@@ -5,7 +5,7 @@ A Javascript module for waiting different amounts of time.
 ## Getting Started
 ### Install
 ```shell
-npm install holdjs
+npm install holddotjs
 ```
 ### API Reference
 It's easy to use Hold.js API to wait for milliseconds, seconds, minutes and even hours.

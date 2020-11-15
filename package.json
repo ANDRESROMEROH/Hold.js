@@ -1,5 +1,5 @@
 {
-  "name": "holdjs",
+  "name": "holddotjs",
   "version": "1.0.0",
   "description": "A Javascript module for waiting different amounts of time.",
   "main": "index.js",
