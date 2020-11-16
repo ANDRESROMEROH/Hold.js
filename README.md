@@ -1,10 +1,4 @@
 # Hold.js 🚌🏃🏻‍♂️
-<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/holddotjs">
-<img alt="npm" src="https://img.shields.io/npm/dw/holddotjs">
-<img alt="npm" src="https://img.shields.io/npm/v/holddotjs">
-<img alt="NPM" src="https://img.shields.io/npm/l/holddotjs">
-<a href="https://github.com/ANDRESROMEROH/hold.js/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/ANDRESROMEROH/hold.js"></a>
-
 When something feels right... Hold on to it! :)
 A Javascript module for waiting different amounts of time.
 
