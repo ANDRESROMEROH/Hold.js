@@ -12,7 +12,7 @@ npm install holddotjs
 const hold = require('holddotjs');
 ```
 ### API Reference
-It's easy to use Hold.js API to wait for milliseconds, seconds, minutes and even hours.
+Hold.js API makes it easy to wait for milliseconds, seconds, minutes and even hours.
 ```javascript
 async function makeBusLeave() {
     await hold.millisecs(5);    // -> 😭 Holds for 5ms
