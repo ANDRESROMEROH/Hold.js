@@ -15,13 +15,39 @@ const hold = require('holddotjs');
 It's easy to use Hold.js API to wait for milliseconds, seconds, minutes and even hours.
 ```javascript
 async function makeBusLeave() {
-    await hold.millisecs(5); // Holds 5ms 😭
-    await hold.seconds(30); // Holds 30s 😞
-    await hold.minutes(10); // Holds 10min 😦
-    await hold.hours(2); // Holds 2hrs 😄
+    await hold.millisecs(5);    // -> 😭 Holds for 5ms
+    await hold.seconds(30);     // -> 😞 Holds for 30s
+    await hold.minutes(10);     // -> 😦 Holds for 10min
+    await hold.hours(2);        // -> 😄 Holds for 2hrs
 
     console.log('🚌💨 leaving...');
 }
+```
+## TypeScript Definitions
+```typescript
+/**
+ * @param ms The amount of milliseconds to wait.
+ * @return A promise that gets resolved after a given amount of milliseconds.
+ */
+function millisecs(ms?: number): Promise<void>;
+
+/**
+ * @param s The amount of seconds to wait.
+ * @return A promise that gets resolved after a given amount of seconds.
+ */
+function seconds(s?: number): Promise<void>;
+
+/**
+ * @param min The amount of minutes to wait.
+ * @return A promise that gets resolved after a given amount of minutes.
+ */
+function minutes(min?: number): Promise<void>;
+
+/**
+ * @param hr The amount of hours to wait.
+ * @return A promise that gets resolved after a given amount of hours.
+ */
+function hours(ht?: number): Promise<void>;
 ```
 ## License
 Hold.js is licensed under the MIT License.

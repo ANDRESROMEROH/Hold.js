@@ -3,32 +3,32 @@ const MINUTE_MS = 60000;
 const HOUR_MS = 3600000;
 
 /**
-* @param {String} ms
-* @returns {Promise<boolean>}
+* @param {String} ms The amount of milliseconds to wait.
+* @returns {Promise<void>}
 */
 async function millisecs(ms = 0) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 /**
-* @param {String} s
-* @returns {Promise<any>}
+* @param {String} s The amount of seconds to wait.
+* @returns {Promise<void>}
 */
 async function seconds(s = 0) {
     return new Promise(resolve => setTimeout(resolve, s * SECOND_MS));
 }
 
 /**
-* @param {String} min
-* @returns {Promise<any>}
+* @param {String} min The amount of minutes to wait.
+* @returns {Promise<void>}
 */
 async function minutes(min = 0) {
     return new Promise(resolve => setTimeout(resolve, min * MINUTE_MS));
 }
 
 /**
-* @param {String} hr
-* @returns {Promise<any>}
+* @param {String} hr The amount of hours to wait.
+* @returns {Promise<void>}
 */
 async function hours(hr = 0) {
     return new Promise(resolve => setTimeout(resolve, hr * HOUR_MS));
