@@ -1,6 +1,6 @@
 {
   "name": "holddotjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Javascript module for waiting different amounts of time.",
   "main": "index.js",
   "scripts": {
