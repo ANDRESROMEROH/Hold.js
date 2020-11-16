@@ -9,7 +9,7 @@ npm install holddotjs
 ```
 ### Import
 ```javascript
-const hold = require('holddotjs)
+const hold = require('holddotjs')
 ```
 ### API Reference
 It's easy to use Hold.js API to wait for milliseconds, seconds, minutes and even hours.
