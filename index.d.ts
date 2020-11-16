@@ -20,4 +20,4 @@ export default function minutes(min?: number): Promise<void>;
  * @param hr The amount of hours to wait.
  * @return A promise that gets resolved after a given amount of hours.
  */
-export default function hours(ht?: number): Promise<void>;
+export default function hours(hr?: number): Promise<void>;
