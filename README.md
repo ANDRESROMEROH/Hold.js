@@ -23,7 +23,7 @@ async function makeBusLeave() {
     console.log('🚌💨 leaving...');
 }
 ```
-## TypeScript Definitions
+## Function Definitions
 ```typescript
 /**
  * @param ms The amount of milliseconds to wait.
