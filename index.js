@@ -6,7 +6,7 @@ const HOUR_MS = 3600000;
 * @param {String} ms The amount of milliseconds to wait.
 * @returns {Promise<void>}
 */
-async function millisecs(ms = 0) {
+async function millisecs(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
@@ -14,7 +14,7 @@ async function millisecs(ms = 0) {
 * @param {String} s The amount of seconds to wait.
 * @returns {Promise<void>}
 */
-async function seconds(s = 0) {
+async function seconds(s) {
     return new Promise(resolve => setTimeout(resolve, s * SECOND_MS));
 }
 
@@ -22,7 +22,7 @@ async function seconds(s = 0) {
 * @param {String} min The amount of minutes to wait.
 * @returns {Promise<void>}
 */
-async function minutes(min = 0) {
+async function minutes(min) {
     return new Promise(resolve => setTimeout(resolve, min * MINUTE_MS));
 }
 
@@ -30,7 +30,7 @@ async function minutes(min = 0) {
 * @param {String} hr The amount of hours to wait.
 * @returns {Promise<void>}
 */
-async function hours(hr = 0) {
+async function hours(hr) {
     return new Promise(resolve => setTimeout(resolve, hr * HOUR_MS));
 }
 
