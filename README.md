@@ -29,25 +29,25 @@ async function makeBusLeave() {
  * @param ms The amount of milliseconds to wait.
  * @return A promise that gets resolved after a given amount of milliseconds.
  */
-function millisecs(ms?: number): Promise<void>;
+function millisecs(ms: number): Promise<void>;
 
 /**
  * @param s The amount of seconds to wait.
  * @return A promise that gets resolved after a given amount of seconds.
  */
-function seconds(s?: number): Promise<void>;
+function seconds(s: number): Promise<void>;
 
 /**
  * @param min The amount of minutes to wait.
  * @return A promise that gets resolved after a given amount of minutes.
  */
-function minutes(min?: number): Promise<void>;
+function minutes(min: number): Promise<void>;
 
 /**
  * @param hr The amount of hours to wait.
  * @return A promise that gets resolved after a given amount of hours.
  */
-function hours(hr?: number): Promise<void>;
+function hours(hr: number): Promise<void>;
 ```
 ## License
 Hold.js is licensed under the MIT License.
